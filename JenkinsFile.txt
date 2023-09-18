@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout the source code from Git
+                checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                // Build the .NET project
+                sh 'dotnet build'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                // Run tests
+                sh 'dotnet test'
+            }
+        }
+    }
+}
