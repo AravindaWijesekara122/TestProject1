@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment{
-        registry = "kss7/SimpleApp"
+        registry = "kss7/TestWebApp"
         img = "$registry" + ":$(env.BUILD_ID)"
         }
 
