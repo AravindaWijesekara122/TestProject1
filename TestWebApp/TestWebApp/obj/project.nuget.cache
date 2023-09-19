@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UtTdx2xw3eRnRaQTNa9994S9Qj0IdxU9h22uzZ1kJRykRl2ArUVC7MAxH3RhXWvse7DKnQvB8fjvR3pDQNCb7A==",
+  "dgSpecHash": "6KSl3/hwLm5vI/IPTFvZ1ZY6nQ/Elpn15oP5/RuozfjJIVBXl9yobYpFWWqEZ67I7DQTWiZpR2ogzu9NECybdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\aravindawijesekara\\OneDrive - Nagarro\\Desktop\\Bench\\DevOps_Assignment_Test\\TestWebApp\\TestWebApp\\TestWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aravindawijesekara\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\aravindawijesekara\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\aravindawijesekara\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\aravindawijesekara\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\aravindawijesekara\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\aravindawijesekara\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

@@ -1,20 +1,29 @@
 pipeline {
     agent any
+    environment{
+        registry = "kss7/SimpleApp"
+        img = "$registry" + ":$(env.BUILD_ID)"
+        }
 
     stages {
+        stage('Chekout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/AravindaWijesekara122/TestProject1.git'
+                sh 'ls -la'
+               
+            }
+        }
         stage('Build') {
             steps {
-                echo 'Building..'
+            echo 'building...'
+                dockeImg = docker.build("$(img)")
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
+       
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'deploying...'
+                sh returnStdout: true, script : "docker run --rm -d --name $(JOB_NAME -p 8060:8080 $(img)"
             }
         }
     }
